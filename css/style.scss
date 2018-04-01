@@ -1,0 +1,108 @@
+// ****************
+// Color Variables
+// ****************
+$bg-color: #1D316D;
+$primary-color: #ffffff;
+$secondary-color: #F9E71C;
+
+// ****************
+// Font Variables
+// ****************
+$font-size-p: 1.5rem;
+$font-size-h1: 2.5rem;
+$font-weight-light: 100;
+$font-weight-bold: bold;
+
+// CORE STYLES
+body {
+  color: $primary-color;
+}
+
+h1 {
+  font-size: $font-size-h1;
+}
+
+p{
+  font-size: $font-size-p;
+  padding-bottom: 1em;
+  font-weight: $font-weight-light;
+  letter-spacing: .06em;
+}
+// SIGNUP SECTION
+
+.signup-section {
+  background: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 50vh;
+  text-align: center;
+  padding-top: 3em;
+}
+
+.signup-section h1 {
+  padding-top: 2em;
+}
+
+.navbar-brand {
+  margin: 0;
+  padding:0;
+}
+
+.logo {
+  text-align: center;
+}
+
+.navbar {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
+
+#signup-btn {
+  padding: .5em 2em;
+}
+
+// LOGIN SECTION
+
+.login-section {
+  background: $bg-color;
+  height: 50vh;
+  padding-top: 4em;
+}
+
+.content-login-title {
+  padding-bottom: .5em;
+}
+
+.checkbox {
+  text-align: center;
+}
+
+// MEDIA QUERIES
+@media (min-width: 992px){
+// SIGNUP SECTION
+  .signup-section {
+    height: 100vh;
+  }
+  .img {
+    text-align: left;
+    padding: 1em 0 0 3em;
+  }
+  .signup-section h1 {
+    font-size: 2.2em;
+    padding-top: 8em;
+  }
+  p{
+    letter-spacing: .15em;
+    font-size: 1.2em;
+  }
+// LOGIN SECTION
+  .login-section {
+    height: 100vh;
+    padding-top: 20em;
+  }
+  .login-section h1 {
+    font-size: 2.2em;
+  }
+}

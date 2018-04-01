@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Interview Project</title>
+  </head>
+  <body>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-4 signup-section">
+                  <div class="img">
+                    <img src="../img/logo.png" alt="Cassini Logo">
+                  </div>
+                  <h1 class="content-signup-title">Want to Join the coolest club?</h1>
+                  <p>Signup for the world's fastest growing space<br>traveiling program, next stop Mars</p>
+                  <a id="signup-btn"class="btn btn-default" href="#">Signup</a>
+              </div>
+              <div class="col-md-8 login-section">
+                  <div class="container-fluid">
+                      <div class="col-md-3"></div>
+                      <div class="col-md-6">
+                        <h1 class="content-login-title">Login to Cassini</h1>
+                        <form>
+                          <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="name" class="form-control" id="username" placeholder="Username">
+                          </div>
+                          <div class="form-group" >
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                          </div>
+                          <button id="login-btn" type="submit" class="form-control btn btn-default btn-block" onclick="getInfo()">Submit</button>
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox"> Remember | Lost My Password
+                            </label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col-md-3"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

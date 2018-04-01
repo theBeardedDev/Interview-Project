@@ -1,0 +1,74 @@
+body {
+  color: #ffffff; }
+
+h1 {
+  font-size: 2.5rem; }
+
+p {
+  font-size: 1.5rem;
+  padding-bottom: 1em;
+  font-weight: 100;
+  letter-spacing: .06em; }
+
+.signup-section {
+  background: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 50vh;
+  text-align: center;
+  padding-top: 3em; }
+
+.signup-section h1 {
+  padding-top: 2em; }
+
+.navbar-brand {
+  margin: 0;
+  padding: 0; }
+
+.logo {
+  text-align: center; }
+
+.navbar {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent; }
+
+#signup-btn {
+  padding: .5em 2em; }
+
+.login-section {
+  background: #1D316D;
+  height: 50vh;
+  padding-top: 4em; }
+
+.content-login-title {
+  padding-bottom: .5em; }
+
+.checkbox {
+  text-align: center; }
+
+@media (min-width: 992px) {
+  .signup-section {
+    height: 100vh; }
+
+  .img {
+    text-align: left;
+    padding: 1em 0 0 3em; }
+
+  .signup-section h1 {
+    font-size: 2.2em;
+    padding-top: 8em; }
+
+  p {
+    letter-spacing: .15em;
+    font-size: 1.2em; }
+
+  .login-section {
+    height: 100vh;
+    padding-top: 20em; }
+
+  .login-section h1 {
+    font-size: 2.2em; } }
+
+/*# sourceMappingURL=style.css.map */
